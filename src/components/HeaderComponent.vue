@@ -87,22 +87,27 @@ header {
   }
 
   .header_menu {
-    li {
+    ul {
+      display: flex;
+         li {
     padding: 0 1rem;
-  }
-  a {
+       a {
     color: black;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 14px;
+      }
+    }
   }
-  .active {
+    .active {
     border-bottom: 3px solid blue;
     color: blue;
-  }
+    }
   }
   
   
 }
 </style>
+   
+ 
 
