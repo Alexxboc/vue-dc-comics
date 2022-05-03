@@ -133,7 +133,72 @@
 
 <script>
 export default {
-    name: 'FooterInfoSection'
+    name: 'FooterInfoSection',
+    // data() {
+    //     return {
+    //         index: 0,
+    //         menu: [{
+    //             title: 'DC Comics',
+    //             links: 
+    //             [
+    //                 'Characters',
+    //                 'Comics',
+    //                 'Movies',
+    //                 'TV',
+    //                 'Games',
+    //                 'Videos',
+    //                 'News'
+    //             ],
+
+    //             title: 'Shop',
+    //             links: 
+    //             [
+    //                 'Shop DC',
+    //                 'Shop DC Collectibles'
+    //             ],
+
+    //             title: 'DC Comics',
+    //             links: 
+    //             [
+    //                 'Characters',
+    //                 'Comics',
+    //                 'Movies',
+    //                 'TV',
+    //                 'Games',
+    //                 'Videos',
+    //                 'News'
+    //             ],
+
+    //             title: 'DC',
+    //             links: 
+    //             [
+    //                 'Terms Of Use',
+    //                 'Privacy policy (New)',
+    //                 'Ad Choices',
+    //                 'Jobs',
+    //                 'Subscriptions',
+    //                 'Talent Worshops',
+    //                 'CPSC Certificates',
+    //                 'Ratings',
+    //                 'Shop Help',
+    //                 'Contact Us'
+    //             ],
+
+    //             title: 'Sites',
+    //             links: 
+    //             [
+    //                 'DC',
+    //                 'MAD Magazine',
+    //                 'DC Kids',
+    //                 'DC Universe',
+    //                 'DC Power Visa'
+    //             ],
+
+
+    //         }]            
+
+    //     }
+    // }
 }
 </script>
 

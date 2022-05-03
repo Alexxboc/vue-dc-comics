@@ -3,64 +3,81 @@
       <div class="container">
         <div class="row">
           <div class="col-5">
-            <div class="nav_img">
-              <img width="40" src="@/assets/img/buy-comics-shop-locator.png" alt="">
-            </div>
-            <!-- /.nav_img -->
-            <div class="nav_title">
-              <h3>Digital Comics</h3>
-            </div>
-            <!-- /.nav_title -->
-          </div>
+              <div class="card">
+                   <div class="nav_img">
+                        <img width="40" src="@/assets/img/buy-comics-digital-comics.png" alt="">
+                    </div>
+                    <!-- /.nav_img -->
+                    <div class="nav_title">
+                        <h3>Digital Comics</h3>
+                    </div>
+                    <!-- /.nav_title -->
+              </div>
+              <!-- /.card -->
+           </div>
           <!-- /.col-5 -->
 
           <div class="col-5">
-            <div class="nav_img">
-              <img width="40" src="@/assets/img/buy-comics-shop-locator.png" alt="">
-            </div>
-            <!-- /.nav_img -->
-            <div class="nav_title">
-              <h3>Digital Comics</h3>
-            </div>
-            <!-- /.nav_title -->
-          </div>
+              <div class="card">
+                   <div class="nav_img">
+                        <img width="40" src="@/assets/img/buy-comics-digital-comics.png" alt="">
+                    </div>
+                    <!-- /.nav_img -->
+                    <div class="nav_title">
+                        <h3>Digital Comics</h3>
+                    </div>
+                    <!-- /.nav_title -->
+              </div>
+              <!-- /.card -->
+           </div>
           <!-- /.col-5 -->
 
           <div class="col-5">
-            <div class="nav_img">
-              <img width="40" src="@/assets/img/buy-comics-shop-locator.png" alt="">
-            </div>
-            <!-- /.nav_img -->
-            <div class="nav_title">
-              <h3>Digital Comics</h3>
-            </div>
-            <!-- /.nav_title -->
-          </div>
+              <div class="card">
+                   <div class="nav_img">
+                        <img width="40" src="@/assets/img/buy-comics-digital-comics.png" alt="">
+                    </div>
+                    <!-- /.nav_img -->
+                    <div class="nav_title">
+                        <h3>Digital Comics</h3>
+                    </div>
+                    <!-- /.nav_title -->
+              </div>
+              <!-- /.card -->
+           </div>
           <!-- /.col-5 -->
 
           <div class="col-5">
-            <div class="nav_img">
-              <img width="40" src="@/assets/img/buy-comics-shop-locator.png" alt="">
-            </div>
-            <!-- /.nav_img -->
-            <div class="nav_title">
-              <h3>Digital Comics</h3>
-            </div>
-            <!-- /.nav_title -->
-          </div>
+              <div class="card">
+                   <div class="nav_img">
+                        <img width="40" src="@/assets/img/buy-comics-digital-comics.png" alt="">
+                    </div>
+                    <!-- /.nav_img -->
+                    <div class="nav_title">
+                        <h3>Digital Comics</h3>
+                    </div>
+                    <!-- /.nav_title -->
+              </div>
+              <!-- /.card -->
+           </div>
           <!-- /.col-5 -->
 
           <div class="col-5">
-            <div class="nav_img">
-              <img width="40" src="@/assets/img/buy-comics-shop-locator.png" alt="">
-            </div>
-            <!-- /.nav_img -->
-            <div class="nav_title">
-              <h3>Digital Comics</h3>
-            </div>
-            <!-- /.nav_title -->
-          </div>
+              <div class="card">
+                   <div class="nav_img">
+                        <img width="40" src="@/assets/img/buy-comics-digital-comics.png" alt="">
+                    </div>
+                    <!-- /.nav_img -->
+                    <div class="nav_title">
+                        <h3>Digital Comics</h3>
+                    </div>
+                    <!-- /.nav_title -->
+              </div>
+              <!-- /.card -->
+           </div>
           <!-- /.col-5 -->
+
+           
       </div>
       <!-- /.row -->
     </div>
@@ -82,8 +99,11 @@ export default {
   padding: 3rem 0;
   position: relative;
   z-index: 1;
+
   .col-5 {
-    width: calc(100% / 5);
+      width: calc(100% / 5);
+  }
+  .card {
     display: flex;
     column-gap: 1rem;
     align-items: center;
