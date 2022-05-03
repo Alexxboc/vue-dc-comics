@@ -1,30 +1,24 @@
 <template>
     <footer>
         <FooterInfoSection />
-        <div class="sign_up">
-
-        </div>
-        <!-- /.sign_up -->
+        <FooterSignUp />
     </footer>
 </template>
 
 <script>
-import FooterInfoSection from './InfoSectionComponent.vue'
+import FooterInfoSection from './InfoSectionComponent.vue';
+import FooterSignUp from './SignUpComponent.vue'
 export default {
     name: 'SiteFooter',
     components: {
         FooterInfoSection,
+        FooterSignUp
     }
 
 }
 </script>
 
 <style lang="scss" scoped>
-    // Section DC Info
 
-
-.sign_up {
-    height: 200px;
-    background-color: black;
-}
 </style>
+            

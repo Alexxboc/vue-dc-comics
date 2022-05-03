@@ -67,6 +67,10 @@ a {
   display: flex;
 }
 
+.col-2 {
+  width: calc(100% / 2);
+}
+
 /* Main */
 
 /* Footer */

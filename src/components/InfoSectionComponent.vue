@@ -142,6 +142,9 @@ export default {
   background-image: url('@/assets/img/footer-bg.jpg');
   height: 400px;
   background-size: cover;
+  .col-3 {
+      text-align: start;
+  }
   h3 {
     color: white;
     font-weight: bold;
@@ -155,9 +158,6 @@ export default {
       .col-2:first-child {
         padding-top: 3rem;
       }
-      .col-2 {
-        width: calc(100% / 2);
-    }
   }
   .row .column {
     flex-direction: column;
