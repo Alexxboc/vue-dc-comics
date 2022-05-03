@@ -8,54 +8,9 @@
         <!-- /.logo -->
         <div class="header_menu">
           <ul>
-            <li>
+            <li v-for="(titolo, index) in menu" :key="index">
               <a href="">
-                Character
-              </a>
-            </li>
-            <li>
-              <a href="" class="active">
-                Comics
-              </a>
-            </li>
-            <li>
-              <a href="">
-                Movies
-              </a>
-            </li>
-            <li>
-              <a href="">
-                Tv
-              </a>
-            </li>
-            <li>
-              <a href="">
-                Games
-              </a>
-            </li>
-            <li>
-              <a href="">
-                Collecctibles
-              </a>
-            </li>
-            <li>
-              <a href="">
-                Video
-              </a>
-            </li>
-            <li>
-              <a href="">
-                Fans
-              </a>
-            </li>
-            <li>
-              <a href="">
-                News
-              </a>
-            </li>
-            <li>
-              <a href="">
-                Shops
+                {{titolo}}
               </a>
             </li>
           </ul>
@@ -71,7 +26,24 @@
 <script>
 
 export default {
-    name: 'SiteHeader'
+    name: 'SiteHeader',
+    data() {
+      return {
+        menu: [
+        'character',
+        'comics',
+        'movies',
+        'tv',
+        'games',
+        'collectibles',
+        'video',
+        'fans',
+        'news',
+        'shops'
+      ]
+      }
+      
+    }
 }
 </script>
 
