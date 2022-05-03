@@ -1,6 +1,10 @@
 <template>
     <footer>
         <FooterInfoSection />
+        <div class="sign_up">
+
+        </div>
+        <!-- /.sign_up -->
     </footer>
 </template>
 
@@ -14,3 +18,13 @@ export default {
 
 }
 </script>
+
+<style lang="scss" scoped>
+    // Section DC Info
+
+
+.sign_up {
+    height: 200px;
+    background-color: black;
+}
+</style>
