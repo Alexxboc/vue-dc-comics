@@ -2,6 +2,8 @@
   <div id="app">
     <SiteHeader />
     <SiteMain />
+
+    
     
     
   </div>
@@ -58,10 +60,13 @@ a {
   margin: auto;
 }
 
-/* Main */
-// Section Hero Image
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-// Section Navigator
+/* Main */
+
 
 // Section DC Info
 
