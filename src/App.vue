@@ -1,17 +1,18 @@
 <template>
   <div id="app">
+    <SiteHeader />
     
     
   </div>
 </template>
 
 <script>
-// import  from './components/HelloWorld.vue'
+import SiteHeader from './components/HeaderComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    
+    SiteHeader,
   }
 }
 </script>
@@ -23,7 +24,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 
 /* Common rules */
@@ -38,11 +38,22 @@ img {
   max-width: 100%;
 }
 
+ul {
+  list-style: none;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
 /* Utilities */
 .container {
   max-width: 1440px;
+  margin: auto;
 }
-/* Header */
 
 /* Main */
 // Section Hero Image
