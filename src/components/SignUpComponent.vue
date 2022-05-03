@@ -42,6 +42,8 @@ export default {
 .sign_up {
     height: 200px;
     background-color: #2d2c2c;
+    position: relative;
+    z-index: 1;
     .container {
         height: 100%;
     }

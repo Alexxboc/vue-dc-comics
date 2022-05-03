@@ -80,6 +80,8 @@ export default {
 .navigator {
   background-color: rgb(60, 126, 249);
   padding: 3rem 0;
+  position: relative;
+  z-index: 1;
   .col-5 {
     width: calc(100% / 5);
     display: flex;

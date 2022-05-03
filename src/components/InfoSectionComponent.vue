@@ -140,10 +140,13 @@ export default {
 <style lang="scss" scoped>
 .dc_info {
   background-image: url('@/assets/img/footer-bg.jpg');
-  height: 400px;
+  height: 450px;
   background-size: cover;
   .col-3 {
       text-align: start;
+  }
+  img {
+      transform: translate(0, -90px);
   }
   h3 {
     color: white;
