@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <SiteHeader />
+    <SiteMain />
     
     
   </div>
@@ -8,11 +9,13 @@
 
 <script>
 import SiteHeader from './components/HeaderComponent.vue'
+import SiteMain from './components/MainSiteComponent.vue'
 
 export default {
   name: 'App',
   components: {
     SiteHeader,
+    SiteMain,
   }
 }
 </script>
