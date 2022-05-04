@@ -223,6 +223,7 @@ export default {
   }
   .row {
     column-gap: 3rem;
+    flex-wrap: nowrap;
       .col-2:first-child {
         padding-top: 3rem;
       }
