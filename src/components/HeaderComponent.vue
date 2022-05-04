@@ -55,19 +55,24 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 0;
   }
 
   .header_menu {
     ul {
       display: flex;
          li {
-    padding: 0 1rem;
        a {
+    display: inline-block;
+    padding: 3rem 1rem;
     color: black;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 14px;
+    border-bottom: 3px solid transparent;
+    &:hover {
+      border-bottom: 3px solid blue;
+      color: blue;
+    }
       }
     }
   }

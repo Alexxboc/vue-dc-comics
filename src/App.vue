@@ -27,56 +27,52 @@ export default {
 
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
 }
+
 
 /* Common rules */
 
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 ul {
-  list-style: none;
-  
+    list-style: none;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
-
 
 
 /* Utilities */
+
 .container {
-  max-width: 1440px;
-  margin: auto;
+    max-width: 1440px;
+    margin: auto;
 }
 
 .row {
-  display: flex;
+    display: flex;
 }
 
 .col-2 {
-  width: calc(100% / 2);
+    width: calc(100% / 2);
 }
 
 /* Main */
 
 /* Footer */
-
-
-
-
 
 </style>
