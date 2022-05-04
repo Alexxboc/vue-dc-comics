@@ -2,20 +2,20 @@
     <main>
         <SiteJumbotronSection />
         <SiteComicsSection />
-        <SiteMainNavigator />
+        <SiteBanner />
     </main>
     
 </template>
 
 <script>
 import SiteComicsSection from "@/components/ComicsSectionComponent.vue"
-import SiteMainNavigator from "@/components/NavigatorComponent.vue"
+import SiteBanner from "@/components/BannerComponent.vue"
 import SiteJumbotronSection from "@/components/JumbotronComponent.vue"
 export default {
     name: 'SiteMain',
     components: {
         SiteComicsSection,
-        SiteMainNavigator,
+        SiteBanner,
         SiteJumbotronSection
     }
 }

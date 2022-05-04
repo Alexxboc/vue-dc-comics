@@ -214,12 +214,13 @@ export default {
       transform: translate(0, -90px);
   }
   h3 {
-    color: white;
+    color: $dc-text-white;
     font-weight: bold;
     margin-bottom: 1.2rem;
   }
   a {
-    color: lightgray;
+    color: $dc-text-grey;
+    line-height: 25px;
   }
   .row {
     column-gap: 3rem;

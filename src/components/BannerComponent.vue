@@ -1,5 +1,5 @@
 <template>
-    <div class="navigator">
+    <div class="banner">
       <div class="container">
         <div class="row">
           <div class="col-5" v-for="card in cards" :key="card.id"  >
@@ -31,7 +31,7 @@
 
 <script>
 export default {
-    name: 'SiteMainNavigator',
+    name: 'SiteBanner',
     data() {
         return {
             cards: [
@@ -69,7 +69,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.navigator {
+.banner {
   background-color: $dc-primary;
   padding: 3rem 0;
   position: relative;
@@ -79,6 +79,7 @@ export default {
       width: calc(100% / 5);
   }
   .card {
+    height: 50px;
     display: flex;
     column-gap: 1rem;
     justify-content: center;
@@ -87,6 +88,7 @@ export default {
     text-transform: uppercase;
     img {
         width: 45px;
+        max-height: 100%;
     }
   }
 }

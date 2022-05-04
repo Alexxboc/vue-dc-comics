@@ -113,7 +113,7 @@ export default {
 <style lang="scss" scoped>
 .comics_section {
   background-color: $dc-banner-bg;
-  padding: 3rem 0;
+  padding: 4rem 0;
   .container {
     position: relative;
   }
@@ -129,7 +129,7 @@ export default {
 
 .current_series_btn {
     position: absolute;
-    top: -65px;
+    top: -79px;
     left: -10px;
   a {
     @include primaryButton;

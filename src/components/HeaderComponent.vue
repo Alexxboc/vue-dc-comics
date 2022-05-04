@@ -3,7 +3,7 @@
       <div class="container">
         <div class="navbar">
            <div class="logo">
-          <img src="@/assets/img/dc-logo.png" alt="">
+          <img width="80" src="@/assets/img/dc-logo.png" alt="">
         </div>
         <!-- /.logo -->
         <div class="header_menu">
@@ -30,7 +30,7 @@ export default {
     data() {
       return {
         menu: [
-        'character',
+        'characters',
         'comics',
         'movies',
         'tv',

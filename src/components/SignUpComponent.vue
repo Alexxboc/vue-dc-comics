@@ -40,7 +40,7 @@ export default {
 
 <style lang="scss" scoped>
 .sign_up {
-    height: 200px;
+    padding: 2.5rem;
     background-color: $dc-footer-bg;
     position: relative;
     z-index: 1;
