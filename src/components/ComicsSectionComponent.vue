@@ -3,14 +3,7 @@
       <div class="container">
         <div class="row">
           <div class="col-6" v-for="(comic, index) in comics" :key="index">
-            <div class="card">
-              <img :src="comic.thumb" alt="">
-              <div class="title">
-                <small>{{comic.series}}</small>
-              </div>
-              <!-- /.title -->
-            </div>
-            <!-- /.card -->
+            <ComicsCard :img="comic.thumb" :type="comic.series"/>
           </div>
           <!-- /.col-6 -->
         </div>
@@ -22,8 +15,12 @@
 </template>
 
 <script>
+import ComicsCard from "@/components/ComicsCardComponent.vue";
 export default {
     name:'SiteComicsSection',
+    components: {
+      ComicsCard,
+    },
     data() {
       return {
         comics: [
@@ -112,26 +109,7 @@ export default {
   .row {
     column-gap: 2rem;
   }
-  .card {
-    position: relative;
-    img{
-      width: 240px;
-    }
-    .title {
-      color: $dc-text-white;
-      text-transform: uppercase;
-      font-weight: 600;
-      text-align: start;
-      position: absolute;
-      bottom:0;
-      background-color: $dc-banner-bg;
-      width: 100%;
-      padding-bottom: 2rem 0;
-      padding-bottom: 4rem;
-      padding-top: 1rem;
-    }
-    
-  }
+  
 }
 
 .col-6 {
