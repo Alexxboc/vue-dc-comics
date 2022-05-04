@@ -14,10 +14,10 @@
                             <h3>Follow us</h3>
                             <div class="follow_links">
                             <img src="@/assets/img/footer-facebook.png" alt="">
-                            <img src="@/assets/img/footer-facebook.png" alt="">
-                            <img src="@/assets/img/footer-facebook.png" alt="">
-                            <img src="@/assets/img/footer-facebook.png" alt="">
-                            <img src="@/assets/img/footer-facebook.png" alt="">
+                            <img src="@/assets/img/footer-twitter.png" alt="">
+                            <img src="@/assets/img/footer-youtube.png" alt="">
+                            <img src="@/assets/img/footer-periscope.png" alt="">
+                            <img src="@/assets/img/footer-pinterest.png" alt="">
                         </div>
                         <!-- /.follow_links -->
                         </div>
@@ -41,7 +41,7 @@ export default {
 <style lang="scss" scoped>
 .sign_up {
     height: 200px;
-    background-color: #2d2c2c;
+    background-color: $dc-footer-bg;
     position: relative;
     z-index: 1;
     .container {
@@ -62,11 +62,11 @@ export default {
 
 .btn {
     a {
-    color: white;
+    color: $dc-text-white;
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
-    border: 2px solid #3c7ef9;
+    border: 2px solid $dc-primary;
     padding: 0.5rem 1rem;
     }
 }
@@ -79,7 +79,7 @@ export default {
     h3 {
     text-transform: uppercase;
     font-size: 20px;
-    color: #3c7ef9;
+    color: $dc-primary;
     font-weight: 900;
     }
     img {

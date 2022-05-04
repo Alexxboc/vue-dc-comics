@@ -64,21 +64,21 @@ header {
        a {
     display: inline-block;
     padding: 3rem 1rem;
-    color: black;
+    color: $dc-text-dark;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 14px;
     border-bottom: 3px solid transparent;
     &:hover {
-      border-bottom: 3px solid blue;
-      color: blue;
+      border-bottom: 3px solid $dc-primary;
+      color: $dc-primary;
     }
       }
     }
   }
     .active {
-    border-bottom: 3px solid blue;
-    color: blue;
+    border-bottom: 3px solid $dc-primary;
+    color: $dc-primary;
     }
   }
   

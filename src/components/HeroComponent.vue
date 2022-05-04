@@ -19,8 +19,8 @@ export default {
 
 <style lang="scss" scoped>
 .hero_image {
-  background-color: rgb(33, 32, 32) ;
-  color: white;
+  background-color: $dc-banner-bg;
+  color: $dc-text-white;
   font-size: 30px;
   padding: 3rem 0;
   .content {

@@ -3,10 +3,6 @@
     <SiteHeader />
     <SiteMain />
     <SiteFooter />
-
-    
-    
-    
   </div>
 </template>
 
@@ -26,53 +22,11 @@ export default {
 </script>
 
 <style lang="scss">
-#app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-}
+@import '@/assets/scss/style.scss';
 
-
-/* Common rules */
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-img {
-    max-width: 100%;
-}
-
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-
-/* Utilities */
-
-.container {
-    max-width: 1440px;
-    margin: auto;
-}
-
-.row {
-    display: flex;
-}
-
-.col-2 {
-    width: calc(100% / 2);
-}
-
-/* Main */
-
-/* Footer */
 
 </style>
+
+    
+    
+    
