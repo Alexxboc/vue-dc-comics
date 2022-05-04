@@ -1,12 +1,15 @@
 <template>
     <div class="card">
-              <img :src="img" alt="">
-              <div class="title">
-                <span>{{type}}</span>
-              </div>
-              <!-- /.title -->
-            </div>
-            <!-- /.card -->
+        <div class="img_container">
+            <img :src="img" alt="">
+        </div>
+        <!-- /.img_container -->
+        <div class="title">
+            <span>{{type}}</span>
+        </div>
+        <!-- /.title -->
+    </div>
+    <!-- /.card -->
 </template>
 
 <script>
@@ -21,24 +24,22 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.card {
-    position: relative;
-    img{
-      width: 240px;
+.img_container {
+    height: 200px;
+    img {
+    aspect-ratio: 1 / 1;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: top;
     }
-    .title {
-      color: $dc-text-white;
-      text-transform: uppercase;
-      font-weight: 600;
-      text-align: start;
-      position: absolute;
-      bottom:0;
-      background-color: $dc-banner-bg;
-      width: 100%;
-      padding-bottom: 2rem 0;
-      padding-bottom: 4rem;
-      padding-top: 1rem;
-    }
-    
-  }
+}
+
+.title {
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: start;
+    padding: 1rem 0;
+}
 </style>

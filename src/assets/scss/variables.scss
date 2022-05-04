@@ -3,3 +3,10 @@ $dc-banner-bg: #1C1C1C;
 $dc-footer-bg: #303030;
 $dc-text-dark: #464646;
 $dc-text-white: #FFFFF2;
+@mixin primaryButton {
+    background-color: $dc-primary;
+    color: $dc-text-white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+}

@@ -1,6 +1,10 @@
 <template>
     <div class="comics_section">
+      <!-- /.current_series_btn -->
       <div class="container">
+        <div class="current_series_btn">
+          <a href="#">current series</a>
+        </div>
         <div class="row">
           <div class="col-6" v-for="(comic, index) in comics" :key="index">
             <ComicsCard :img="comic.thumb" :type="comic.series"/>
@@ -8,6 +12,10 @@
           <!-- /.col-6 -->
         </div>
         <!-- /.row -->
+        <div class="load_btn">
+          <a href="#">Load More</a>
+        </div>
+        <!-- /.load_btn -->
       </div>
       <!-- /.container -->
     </div>
@@ -106,6 +114,9 @@ export default {
 .comics_section {
   background-color: $dc-banner-bg;
   padding: 3rem 0;
+  .container {
+    position: relative;
+  }
   .row {
     column-gap: 2rem;
   }
@@ -114,6 +125,27 @@ export default {
 
 .col-6 {
   width: calc(100% / 6 - 2rem);
+}
+
+.current_series_btn {
+    position: absolute;
+    top: -65px;
+    left: -10px;
+  a {
+    @include primaryButton;
+    padding: 0.5rem 1.5rem;
+    font-size: 25px;
+    
+
+  }
+}
+
+.load_btn {
+  margin-top: 1.5rem;
+  a {
+    @include primaryButton;
+    padding: 0.5rem 3rem;
+  }
 }
 
 </style>
